@@ -1,0 +1,33 @@
+#foot {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    color: var(--base-white);
+    font-weight: 700;
+    line-height: 120%;
+    background-color: #0E4936;
+    padding: 19px 34px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100vw;
+    flex-grow: 1;
+    /* animation: scroller 4s linear infinite ; */
+}
+
+#foot>p {
+    flex-shrink: 1;
+}
+
+@keyframes scroller {
+    from {
+        transform: translateX(0);
+
+    }
+
+    to {
+        transform: translateX(-100vw);
+    }
+}
+
+
+/* ...................................................foot-text.......................................................................... */

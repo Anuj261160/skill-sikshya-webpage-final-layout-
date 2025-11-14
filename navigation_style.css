@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    font-family: outfit;
+}
+
+:root {
+    --base-black: #2B2B2B;
+    --base-green: #1DA077;
+    --base-white: #FAFAFA;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    background-image: url(pictures/BACKGROUND.png);
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+#nav-menu {
+    padding: 24px 112px;
+    display: flex;
+}
+
+/* ........................................................LOGO and NAV Menu................................... */
+.nav-content {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-grow: 1;
+}
+
+.menu-button-box {
+    display: flex;
+    gap: 48px;
+}
+
+.nav-content img {
+    height: 40px;
+    width: 210px;
+}
+
+.nav-content img:hover {
+    cursor: pointer;
+
+}
+
+/* ............................................................Nav Menu............................................. */
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    font-family: outfit;
+
+}
+
+
+/*...........................................................nav texts...............................................*/
+.menu>a {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    color: var(--base-black);
+    line-height: 100%;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: center;
+}
+
+.menu>a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width:600px) {
+    .menu>a {
+        display: none;
+    }
+
+    #nav-menu {
+        padding: 0px;
+    }
+}
+
+
+/*...........................................................BUTTON....................................................*/
+.menu-button-box>button {
+    background: linear-gradient(180deg, #1DAA7E 0%, #1A8463 100%);
+    width: 194px;
+    height: 47px;
+    border-radius: 12px;
+    color: var(--base-white);
+    font-family: outift;
+    font-size: 18px;
+}
+
+.menu-button-box>button:hover {
+    cursor: pointer;
+}

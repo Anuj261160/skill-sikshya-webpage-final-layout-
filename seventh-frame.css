@@ -1,0 +1,132 @@
+.seventh-frame {
+    padding: 5.56vh 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.testimonials-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 88vh;
+    width: 90vw;
+}
+
+/* ..........images......... */
+.fiiirst {
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+
+.seeecond {
+    position: absolute;
+    top: 50px;
+    right: 274px;
+}
+
+.thhhird {
+    position: absolute;
+    bottom: 50px;
+    right: 351px;
+}
+
+.fooourth {
+    position: absolute;
+    top: 20px;
+    left: 246px;
+}
+
+.fiiifth {
+    position: absolute;
+    bottom: 75px;
+    left: 290px;
+}
+
+.siixth {
+    position: absolute;
+    right: 49px;
+    top: 253px;
+}
+
+/* ....................................................... */
+
+.testimonial-text-and-emo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    width: 55vw;
+    position: relative;
+}
+
+.emo {
+    height: 100px;
+    width: 100px;
+}
+
+.thumbsup {
+    position: absolute;
+    top: -10px;
+    left: 300px;
+}
+
+.smiley {
+    position: absolute;
+    bottom: 150px;
+    left: 0px;
+}
+
+.trophy {
+    position: absolute;
+    bottom: -20px;
+    left: 280px;
+}
+
+.heart {
+    position: absolute;
+    right: -50px;
+    bottom: 80px;
+}
+
+
+
+
+
+.testimonial-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.85vh;
+
+
+
+}
+
+.testimonial-text>p:first-child {
+    font-size: 1.5rem;
+    color: #414141;
+}
+
+.testimonial-text>p:nth-child(2) {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+}
+
+#green-master {
+    color: var(--base-green);
+    text-align: center;
+}
+
+.testimonial-text>p:nth-child(3)>svg {
+    margin-left: 8px;
+}
+
+.testimonial-text>p:nth-child(3) {
+    text-align: center;
+}

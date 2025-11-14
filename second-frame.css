@@ -1,0 +1,72 @@
+#second-frame {
+    width: 100vw;
+    padding: 120px 112px 60px 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: stretch;
+    width: 80vw;
+    overflow: visible;
+
+}
+
+.text-frame {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+
+.text-frame>p:first-child {
+    font-weight: 700;
+    font-family: 'Nohemi', sans-serif;
+    font-size: 2.75rem;
+    text-align: center;
+    line-height: 120%;
+
+}
+
+.green {
+    color: var(--base-green);
+}
+
+.text-frame>p:nth-child(2) {
+    font-family: outfit;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* ............................................................gallery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
+.photo-frame {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    width: 150vw;
+    align-self: stretch;
+    position: relative;
+    left: -25vw;
+}
+
+
+
+.photos {
+    border-radius: 20px;
+    width: 279px;
+    height: 364px;
+
+}
+
+.photo-frame>.photos:nth-child(3)>img {
+    border-radius: 20px;
+}

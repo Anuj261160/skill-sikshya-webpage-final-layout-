@@ -1,0 +1,80 @@
+.our-partner {
+    display: flex;
+    flex-direction: column;
+    gap: 2.625rem;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+
+}
+
+.our-partner>p {
+    font-size: 1.75rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+#color-text {
+    color: var(--base-green);
+    line-height: 120%;
+}
+
+.go-ms-abnb {
+    display: flex;
+    gap: 2.375rem;
+    justify-content: center;
+}
+
+/* ................................fifth-frame.......................... */
+#fifth-frame {
+    display: flex;
+    flex-direction: column;
+    gap: 4.44vh;
+    padding: 5.56vh 5.83vw;
+}
+
+.frame-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.frame-top-text>p:first-child {
+    font-size: 1.5rem;
+    color: #414141;
+}
+
+.frame-top-text>p:nth-child(2) {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 120%;
+    color: var(--base-black);
+}
+
+#masters {
+    color: var(--base-green);
+}
+
+#masters::after {
+    content: "";
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url(pictures/Frame\ \(4\).svg);
+    position: relative;
+    top: 10px;
+}
+
+.frame-top>p {
+    font-size: 1.125rem;
+    color: var(--base-black);
+    font-weight: 600;
+}
+
+.frame-top>p:hover {
+    cursor: pointer;
+}
+
+/* ..........................guys-images........................ */
+.frame-bot {
+    display: flex;
+    justify-content: space-around;
+}

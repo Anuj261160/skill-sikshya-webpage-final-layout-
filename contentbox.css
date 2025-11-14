@@ -1,0 +1,250 @@
+/* .........................................picture-box.............................................................. */
+
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 140px;
+
+
+
+}
+
+/* .......................................................main-content-box...................................................... */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+
+    position: relative;
+
+}
+
+
+/* ...........................................................heading-and-P............................................................. */
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    align-items: center;
+    position: relative;
+
+
+}
+
+.hero-text>h1 {
+    font-family: outfit;
+    font-weight: 600;
+    font-size: 4rem;
+    color: var(--base-black);
+}
+
+/* ....................................................................heading-and-its-animation..................................................... */
+.green-heading {
+    color: var(--base-green);
+
+}
+
+#amb {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    animation: swap-amb 4s ease-in-out 1s infinite alternate;
+}
+
+#cour {
+    position: absolute;
+    opacity: 0;
+    top: -82.4px;
+    right: 15px;
+    animation: swap-courage 4s ease-in-out 1s infinite alternate;
+}
+
+/* .passion{
+    position: absolute;
+    opacity: 0;
+    top: 82.4px;
+    right: 30px;
+    animation: swap-passion 2s ease-in-out 2s infinite alternate;
+} */
+.courage {
+
+    color: var(--base-green);
+}
+
+@keyframes swap-amb {
+    to {
+        transform: translatey(-82.4px);
+    }
+
+    0% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+
+}
+
+@keyframes swap-courage {
+    to {
+        transform: translatey(82.4px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes swap-passion {
+    to {
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(-82.4px);
+    }
+}
+
+.hero-text>p {
+    font-size: 28px;
+    text-align: center;
+    font-family: outfit;
+}
+
+/* ............................................................images-WITH-p-section............................................................... */
+.hero-foot-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.hero-foot-content>p {
+    font-weight: 400;
+    font-family: outfit;
+
+}
+
+
+/* .................................................IMAGE-BOX............................................................ */
+
+.mentors {
+    display: flex;
+    padding-left: 65px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mentors>img {
+    border-radius: 50%;
+    height: 72px;
+    width: 72px;
+
+    border: 3px solid var(--base-white);
+
+
+}
+
+/* ....................................................IMAGES................................................. */
+
+.first {
+    transition: transform 0.5s ease-out;
+
+}
+
+.first:hover {
+    transform: scale(1.05);
+    z-index: 1;
+}
+
+.second {
+    position: relative;
+    right: 13px;
+    transition: transform 0.5s ease-out;
+}
+
+.second:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.third {
+    position: relative;
+    right: 26px;
+    transition: transform 0.5s ease-out;
+}
+
+.third:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.fourth {
+    position: relative;
+    right: 39px;
+    transition: transform 0.5s ease-out;
+}
+
+.fourth:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.fifth {
+    position: relative;
+    right: 52px;
+    transition: transform 0.5s ease-out;
+
+}
+
+.fifth:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.say {
+    color: #157254;
+    font-weight: 400;
+
+}
+
+
+/* ..............................................................CIRCLE-WITH-NUMBER............................................................. */
+#plus {
+    color: var(--base-black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    border: 2px solid white;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    right: 65px;
+    background-color: var(--base-white);
+    transition: transform 0.5s ease-out;
+
+}
+
+#plus:hover {
+    transform: scale(1.1);
+}

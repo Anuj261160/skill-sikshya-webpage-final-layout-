@@ -1,0 +1,108 @@
+.main-foot {
+    display: flex;
+    flex-direction: column;
+    gap: 6.25vh;
+    background-color: var(--base-green);
+    border-radius: 32px;
+    padding-top: 5vh;
+    padding-bottom: 3.15vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+.main-foot a:hover {
+    color: blue;
+}
+
+.levelup {
+
+    display: flex;
+    gap: 1.67vw;
+    justify-content: center;
+    font-size: 5.125rem;
+    font-weight: 700;
+    line-height: 120%;
+    color: var(--base-white);
+}
+
+.foot-content {
+    display: flex;
+    gap: 4.74vw;
+    color: var(--base-white);
+    font-size: 18px;
+    justify-content: space-evenly;
+}
+
+.about-skillsikhsya {
+    display: flex;
+    flex-direction: column;
+    gap: 3.89vh;
+}
+
+.about-skillsikhsya>img {
+    width: max(232px, 15vw)
+}
+
+.num-wrapper {
+    font-size: 18px;
+    color: var(--base-white);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.num-wrapper>a {
+    color: var(--base-white);
+    text-decoration: none;
+}
+
+
+.num-wrapper>p:first-child {
+    font-weight: 600;
+}
+
+.company {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.company>p {
+    margin-bottom: 8px;
+}
+
+.company>a {
+    color: var(--base-white);
+    text-decoration: none;
+}
+
+.company>a:hover {
+    text-decoration: underline;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.media-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.media-icons>a>i {
+    color: white;
+}
+
+.media-icons>a>i:hover {
+    color: blue;
+}
+
+.copyright {
+    color: var(--base-white);
+    text-align: center;
+}

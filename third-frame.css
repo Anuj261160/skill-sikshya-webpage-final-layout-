@@ -1,0 +1,306 @@
+/* .....................................outer-frame..................................... */
+.third-frame {
+    padding-top: 120px;
+    padding-bottom: 60px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.para p:first-child {
+    font-family: Outfit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.para p:nth-child(2) {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 120%;
+    font-family: sans-serif;
+}
+
+#para {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hariyo {
+    color: var(--base-green);
+
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+/* .....................................................grid-container........................................ */
+
+.grid-container {
+    width: 85vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr 1fr;
+    gap: 32px;
+}
+
+@media (max-width:900px) {
+
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+}
+
+
+
+
+.clarity {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    display: flex;
+    background-color: #F45B5B;
+    border-radius: 30px;
+    position: relative;
+    flex-grow: 1;
+    padding: 58px 35px 58px 206px;
+}
+
+@media(max-width:900px) {
+    .clarity {
+        grid-column: 1/2;
+        grid-row: auto;
+    }
+}
+
+
+.boy-heading>p:first-child {
+    font-size: 2.125rem;
+    font-weight: 700;
+}
+
+.boy-heading>p:nth-child(2) {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.boy {
+
+    position: absolute;
+    top: 10px;
+    left: -60px;
+    opacity: 1;
+}
+
+.boy-text {
+
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-align: right;
+}
+
+
+
+
+/* ............................................boy-box.................................................... */
+
+.boy-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.boy-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+/* .............................................writing-boy..................... */
+
+.doing {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #5492A0;
+    padding: 58px 206px 58px 35px;
+    position: relative;
+}
+
+@media(max-width:900px) {
+    .doing {
+        grid-column: 1/2;
+        grid-row: auto
+    }
+}
+
+.doing-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    align-self: stretch;
+
+}
+
+.doing-heading>p:first-child {
+    font-size: 2.125rem;
+    font-weight: 700;
+    line-height: 120%
+}
+
+
+.doing-content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.doing-heading-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.doing-text {
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.writing-boy-svg {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+/* ........................................................girll-card.............................................. */
+
+.mentor {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    display: flex;
+    background-color: #6C64A8;
+    border-radius: 30px;
+    position: relative;
+
+    padding: 58px 35px 58px 206px;
+}
+
+@media(max-width:900px) {
+    .mentor {
+        grid-column: 1/2;
+        grid-row: auto;
+    }
+}
+
+
+.girl-heading>p:first-child {
+    font-size: 2.125rem;
+    font-weight: 700;
+
+    text-wrap: nowrap;
+}
+
+.girl-heading>p:nth-child(2) {
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+
+.girl {
+
+    position: absolute;
+    bottom: -80px;
+    left: -100px;
+    opacity: 1;
+}
+
+.girl-text {
+
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-align: right;
+}
+
+.girl-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.girl-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+/* ........................................................last-card.............,,,,............................... */
+
+
+.achieve {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #A88964;
+    padding: 5.37vh 11.41vw 5.37vh 1.82vw;
+    position: relative;
+}
+
+@media(max-width:900px) {
+    .achieve {
+        grid-row: auto;
+        grid-column: 1/2;
+    }
+}
+
+.achieve-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    font-size: 24px;
+    font-weight: 500
+}
+
+.achieve-content {
+    display: flex;
+
+
+}
+
+.achieve-heading-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.achieve-boy-svg>img {
+    position: absolute;
+    height: fit-content;
+    right: -50px;
+    bottom: -50px;
+
+}
